@@ -11,7 +11,7 @@ protected:
 	virtual double calculateArea() = 0;
 	virtual double calculatePerimeter() = 0;
 public:
-	virtual void toString() = 0;
+	virtual void printResult() = 0;
 	double getPerimeter();
 	double getArea();
 	void printPerimeterFormula();
